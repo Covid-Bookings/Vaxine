@@ -3,8 +3,10 @@ import React from "react";
 
 import ItemForm from "./ItemForm";
 import StateDrop from './Statedrop';
+import Calendar from './Calendar';
 
 const AppointmentForm = ({ setForm, formData, navigation }) => {
+
   const { availability, date, time} = formData;
 
   const { previous, next } = navigation;
@@ -17,12 +19,20 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
         value={availability}
         onChange={setForm}
         /> */}
-      <ItemForm
+      <Calendar 
+      // starDate={startDate}
+      // setStartDate={setStartDate}
+      label="date"
+      name="date"
+      value={date}
+      onChange={setForm}
+      />
+      {/* <ItemForm
         label="date"
         name="date"
         value={date}
         onChange={setForm}
-      />
+      /> */}
       <StateDrop label="Available Times" name="availability" value={availability} onChange={setForm} />
 
       <div>
