@@ -4,19 +4,23 @@ import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import MultiStepForm from './Components/Form/MultiStepForm';
+import Footer from './Components/Footer/index';
+import Navbar from './Components/Navbar/index';
 
 function App() {
 
   return (
     <>
     <Router>
-    <h1>Hello World</h1>
+      <Navbar />
+    <h1>Home Component</h1>
     <Route path='/form' render={() => {
       return (
         <MultiStepForm />
       )
     }}
      />
+     <Footer />
     </Router>
     </>
   );

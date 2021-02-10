@@ -1,0 +1,34 @@
+/* .footerWrapper {
+  display: flex;
+
+} */
+
+.footer {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 200px;
+background-color: #C2CEF8;
+}
+
+img {
+  width: 140px;
+  height: 50px;
+}
+
+p{
+  color: #6280EB;
+}
+
+#footerTitle{
+color: darkgrey;
+}
+
+#copyright {
+  font-size: 12px;
+}

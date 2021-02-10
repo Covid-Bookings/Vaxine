@@ -1,0 +1,28 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #C2CEF8;
+}
+
+.mobile{
+display: none;
+position: absolute;
+top: 0;
+right: 0;
+font-size: 38px;
+padding: 10px 10px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+  .mobile {
+    display: block;
+  color: white;
+  }
+}
