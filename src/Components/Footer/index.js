@@ -8,7 +8,7 @@ const Footer = () => {
 			<div className='fixed-footer'>
 				<div className='footer-wrapper'>
 					<div className='footer container'>
-						<p id='footerTitle'>A cure in your city</p>
+						<p id='footerTitle'>A guide to your health</p>
 						<div className='vaccine-wrapper'>
 							<img
 								className='vaxine-logo'

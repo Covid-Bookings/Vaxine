@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './confirmation.css';
+
 import VaxineShotLogo from '../../images/vaxine-shot-logo.png'
+import ProgressBarFour from '../../images/progressfour.png';
 
 const ConfirmationPage = ({ formData }) => {
 	// const {
@@ -18,6 +20,9 @@ const ConfirmationPage = ({ formData }) => {
 	return (
 			<div className='confirmation-wrapper'>
 				<div className='confirmation-content'>
+				<div className="progress-bar">
+      <img className="progress-bar" src={ProgressBarFour} alt="progress bar step 1" />
+      </div>
 					<h1>
 						Appointment <br />
 						Confirmed 
