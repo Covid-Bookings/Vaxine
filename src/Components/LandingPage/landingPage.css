@@ -32,12 +32,23 @@ span {
 	padding: 0.313rem;
 }
 
+.landing-page-wrapper {
+	position: relative;
+}
+
 .book-btn {
+	text-decoration: none;
+	z-index: 1;
+	top: -30%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	margin: auto;
 	color: white;
 	font-size: 15px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	margin: 3% auto;
 	background: #6280eb;
 	border-radius: 30px;
 	display: flex;

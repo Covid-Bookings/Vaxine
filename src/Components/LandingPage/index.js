@@ -4,13 +4,13 @@ import './landingPage.css';
 
 const LandingPage = () => {
 	return (
-		<div>
+		<div className='landing-page-wrapper'>
 			{/* problem rendering image and the list at the same time, no scroll, blocked by footer */}
-			{/* <img
+			<img
 				className='senior-vaccine'
 				src='https://i.imgur.com/uYheX9P.jpg'
 				alt='senior-citizen-getting-vaccine'
-			/> */}
+			/>
 			<Link className='book-btn' to='/form'>
 				Schedule Now
 			</Link>
