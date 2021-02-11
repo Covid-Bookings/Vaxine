@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './landingPage.css';
 
 const LandingPage = () => {
@@ -6,11 +7,13 @@ const LandingPage = () => {
 		<div>
 			{/* problem rendering image and the list at the same time, no scroll, blocked by footer */}
 			{/* <img
-        className='senior-vaccine'
+				className='senior-vaccine'
 				src='https://i.imgur.com/uYheX9P.jpg'
 				alt='senior-citizen-getting-vaccine'
 			/> */}
-			<button className='book-btn'>Schedule Now</button>
+			<Link className='book-btn' to='/form'>
+				Schedule Now
+			</Link>
 			<h2>Make a Vaccination Appointment</h2>
 			<h1>in 5 easy steps</h1>
 			<ul>
