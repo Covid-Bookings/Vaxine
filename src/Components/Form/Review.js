@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './review.css';
 
 import Disclaimer from './Disclaimer';
@@ -7,19 +7,19 @@ import HospitalImage from '../../images/national-cancer-institute.jpg';
 import ProgressBarThree from '../../images/progressthree.png';
 
 const Review = ({ setForm, formData, navigation }) => {
-  const {
-    firstName,
-    lastName,
-    phoneNumber,
-    email,
-    date,
-    availability,
-    hospital
-  } = formData;
+	const {
+		firstName,
+		lastName,
+		phoneNumber,
+		email,
+		date,
+		availability,
+		hospital,
+	} = formData;
 
-  const { previous } = navigation;
+	const { previous } = navigation;
 
-  const { go } = navigation;
+	const { go } = navigation;
 
   return (
     <div className="review-wrapper">
@@ -50,6 +50,7 @@ const Review = ({ setForm, formData, navigation }) => {
         </div>
     </div>
   );
+
 };
 
 export default Review;
