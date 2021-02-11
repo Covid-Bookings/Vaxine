@@ -4,6 +4,8 @@ import Vaxine from '../../images/vaxine.png';
 
 const Footer = () => {
   return (
+    <>
+    <div className="testingyo">
   <div className="footer-wrapper">
     <div className='footer container'>
       <p id="footerTitle">A cure in your city</p>
@@ -17,6 +19,8 @@ const Footer = () => {
       </div>
     </div>
    </div>
+   </div>
+   </>
   )
 }
 

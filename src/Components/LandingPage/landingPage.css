@@ -3,6 +3,7 @@ h1,
 h2 {
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
+	padding-top: 10px;
 }
 
 body {
@@ -22,6 +23,7 @@ span {
 	width: 37.5rem;
 	margin: auto;
 	display: block;
+	border-radius: 15px;
 }
 .steps {
 	border: 0.313rem solid #ececec;
@@ -32,6 +34,9 @@ span {
 	padding: 0.313rem;
 }
 
+.landing-list {
+	padding-top: 10px;
+}
 .landing-page-wrapper {
 	position: relative;
 }
