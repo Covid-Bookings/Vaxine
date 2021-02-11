@@ -11,11 +11,10 @@ const Name = ({ setForm, formData, navigation }) => {
   const { next } = navigation;
 
   return (
-    <div className="form">
+    <div className="first-form-wrapper">
       <h1>Register</h1>
-      <img  className="hospitalimg" src={HospitalImage} alt="hospital fossad" />
-      <p>some text about the hospital</p> 
       <div className="form-content">
+      <img  className="hospitalimg" src={HospitalImage} alt="hospital fossad" />
       <ItemForm
         className="firstform"
         label="First Name"

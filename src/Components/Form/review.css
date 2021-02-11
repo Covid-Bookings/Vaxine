@@ -10,22 +10,22 @@
   /* padding: 10px; */
 }
 
-.review-contents {
+.hospitalimg{
+  width: 310px;
+height: 270px;
+border: 10px solid green;
+}
+
+.review-content {
   /* position: relative; */
   /* display: flex; */
   justify-content: center;
+  padding: 10px;
   /* flex-direction: column; */
   /* text-align: center; */
 }
 
-.previousbtn{
 
-}
-
-.btn-wrapper {
-
-}
-
-button{
-
+.submit-wrapper{
+  padding: 20px;
 }

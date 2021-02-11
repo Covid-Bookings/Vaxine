@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './review.css';
 
 import Disclaimer from './Disclaimer';
@@ -11,8 +12,8 @@ const Review = ({ setForm, formData, navigation }) => {
     phoneNumber,
     email,
     date,
-    time,
-    availability
+    availability,
+    hospital
   } = formData;
 
   const { previous } = navigation;
@@ -23,24 +24,25 @@ const Review = ({ setForm, formData, navigation }) => {
     <div className="review-wrapper">
       {/* <div className="review-contents"> */}
       <h3>Review </h3>
-      <img src={HospitalImage} alt="hospital-fossad" />
-      <div review-contents>
-        {" "}
-        First name: {`${firstName}`},
-        <br />
-        Last Name: {`${lastName}`},
+      <img  className="hospitalimg" src={HospitalImage} alt="hospital-fossad" />
+      <div className="review-content">
+        <b>Name:</b> {`${firstName} ${lastName}`}
       </div>
-      <div>phoneNumber: {`${phoneNumber}`}</div>
-      <div>email: {`${email}`}</div>
-      <div>date: {`${date}`}</div>
-      <div>time: {`${availability}`}</div>
+      <div className="review-content"><b>Phone Number:</b> {`${phoneNumber}`}</div>
+      <div className="review-content"><b>Email:</b> {`${email}`}</div>
+      <div className="review-content"><b>Appointment Date:</b> {`${date}`}</div>
+      <div className="review-content"><b>Time:</b> {`${availability}`}</div>
+      <div className="review-content"><b>Location:</b> {`${hospital}`}</div>
       {/* </div> */}
       <div>
-      <button className="previousbtn" onClick={previous}>Previous</button>
+      <button onClick={previous}>Previous</button>
       <Disclaimer />
       </div >
       <div className="submit-wrapper">
-        <button onClick={() => go("submit")}>Submit</button>
+        <Link to='/confirmation'>
+          <button>Submit</button>
+        </Link>
+        {/* <button onClick={() => go("submit")}>Submit</button> */}
         </div>
     </div>
   );

@@ -7,7 +7,7 @@ import MultiStepForm from './Components/Form/MultiStepForm';
 import Footer from './Components/Footer/index';
 import Navbar from './Components/Navbar/index';
 import LandingPage from './Components/LandingPage/index';
-import ConfirmationPage from './Components/ConfirmationPage/index';
+import ConfirmationPage from './Components/Form/Confirmation';
 
 function App() {
 
@@ -15,20 +15,20 @@ function App() {
     <>
     <Router>
       <Navbar />
-    <Route path='/' render={() => {
+    <Route path='/' exact render={() => {
       return (
         <LandingPage />
       )
     }}
     />
-    <Route path='/form' render={() => {
+    <Route path='/form' exact render={() => {
       return (
         <MultiStepForm />
       )
     }}
      />
      <Footer />
-     <Route path='/confirmation' render={() => {
+     <Route path='/confirmation' exact render={() => {
        return (
          <ConfirmationPage />
        )
