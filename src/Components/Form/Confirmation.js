@@ -1,7 +1,11 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import './confirmation.css';
-import VaxineShotLogo from '../../images/vaxine-shot-logo.png';
+
+
+import VaxineShotLogo from '../../images/vaxine-shot-logo.png'
+import ProgressBarFour from '../../images/progressfour.png';
+
 
 const ConfirmationPage = (props) => {
 	const location = useLocation();

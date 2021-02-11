@@ -19,6 +19,12 @@ h1 {
 	border-radius: 15px;
 }
 
+.progress-bar {
+	margin: 2% auto;
+	width: 400px;
+	height: 40px;
+}
+
 .btn-wrapper {
 	display: flex;
 	justify-content: center;
