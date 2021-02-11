@@ -6,7 +6,7 @@ import VaxineShotLogo from '../../images/vaxine-shot-logo.png';
 const ConfirmationPage = (props) => {
 	const location = useLocation();
 	// Gets back information object from client
-	console.log(location.state.formData);
+	// console.log(location.state.formData);
 	const {
 		firstName,
 		lastName,
