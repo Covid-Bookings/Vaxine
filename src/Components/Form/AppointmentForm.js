@@ -4,6 +4,7 @@ import React from "react";
 import ItemForm from "./ItemForm";
 import StateDrop from './Statedrop';
 import Calendar from './Calendar';
+import Disclaimer from './Disclaimer';
 
 const AppointmentForm = ({ setForm, formData, navigation }) => {
 
@@ -37,8 +38,8 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
       <StateDrop label="Available Times" name="availability" value={availability} onChange={setForm} />
 
       <div>
-        <button onClick={previous}>Previous</button>
-        <button onClick={next}>Next</button>
+        <button className="previousbtn" onClick={previous}>Previous</button>
+        <button className="nextbtn" onClick={next}>Next</button>
       </div>
     </div>
   );

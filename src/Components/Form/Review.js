@@ -1,4 +1,8 @@
 import React from "react";
+import './review.css';
+
+import Disclaimer from './Disclaimer';
+import HospitalImage from '../../images/national-cancer-institute.jpg';
 
 const Review = ({ setForm, formData, navigation }) => {
   const {
@@ -16,13 +20,11 @@ const Review = ({ setForm, formData, navigation }) => {
   const { go } = navigation;
 
   return (
-    <div className="form">
-      <h3>Review your data</h3>
-      {/* <h4>
-        Name
-        <button onClick={() => go("names")}>Edit</button>
-      </h4> */}
-      <div>
+    <div className="review-wrapper">
+      {/* <div className="review-contents"> */}
+      <h3>Review </h3>
+      <img src={HospitalImage} alt="hospital-fossad" />
+      <div review-contents>
         {" "}
         First name: {`${firstName}`},
         <br />
@@ -32,32 +34,14 @@ const Review = ({ setForm, formData, navigation }) => {
       <div>email: {`${email}`}</div>
       <div>date: {`${date}`}</div>
       <div>time: {`${availability}`}</div>
-      {/* <h4>
-        Address
-        <button onClick={() => go("address")}>Edit</button>
-      </h4> */}
-      {/* <div>
-        Address: {`${address}`},
-        <br />
-        City: {` ${city}`},
-        <br />
-        State: {`${state}`},
-        <br />
-        ZIP: {`${zip}`}
-      </div> */}
-      {/* <h4>
-        Contact
-        <button onClick={() => go("contact")}>Edit</button>
-      </h4> */}
-      {/* <div>
-        Phone: {`${phone}`},
-        <br />
-        E-mail: {`${email}`}
-      </div> */}
+      {/* </div> */}
       <div>
-      <button onClick={previous}>Previous</button>
+      <button className="previousbtn" onClick={previous}>Previous</button>
+      <Disclaimer />
+      </div >
+      <div className="submit-wrapper">
         <button onClick={() => go("submit")}>Submit</button>
-      </div>
+        </div>
     </div>
   );
 };
