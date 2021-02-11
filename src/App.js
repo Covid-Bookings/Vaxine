@@ -7,6 +7,7 @@ import MultiStepForm from './Components/Form/MultiStepForm';
 import Footer from './Components/Footer/index';
 import Navbar from './Components/Navbar/index';
 import LandingPage from './Components/LandingPage/index';
+import ConfirmationPage from './Components/ConfirmationPage/index';
 
 function App() {
 
@@ -14,7 +15,6 @@ function App() {
     <>
     <Router>
       <Navbar />
-    <h1>Home Component</h1>
     <Route path='/' render={() => {
       return (
         <LandingPage />
@@ -28,6 +28,12 @@ function App() {
     }}
      />
      <Footer />
+     <Route path='/confirmation' render={() => {
+       return (
+         <ConfirmationPage />
+       )
+     }}
+      />
     </Router>
     </>
   );
