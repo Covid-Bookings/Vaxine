@@ -1,36 +1,48 @@
-.footer {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-height: 200px;
-background-color: #C2CEF8;
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.footer-wrapper{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #C2CEF8;
+  color: white;
+  text-align: center;
 }
 
-img {
-  width: 140px;
-  height: 50px;
+
+.vaccine-wrapper{
+padding: 1rem;
+}
+
+.vaxine-logo {
+width: 122px;
+ height: 34px;
 }
 
 p{
   color: #6280EB;
-  padding: 2px 0 3px 0;
 }
 
 .footer-list {
-  padding: 20px 0;
+  font-size: 18px;
+  color: #6280EB;
 }
 
 #footerTitle{
-color: darkgrey;
 padding-top: 20px;
+color: #767779;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
 }
 
 #copyright {
-  font-size: 12px;
-  padding-top: 30px;
+  padding-top: 1rem;
+  font-size: 10px;
+  color: #6280EB;
 }
