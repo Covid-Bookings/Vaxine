@@ -15,20 +15,20 @@ function App() {
     <>
     <Router>
       <Navbar />
-    <Route path='/' render={() => {
+    <Route path='/' exact render={() => {
       return (
         <LandingPage />
       )
     }}
     />
-    <Route path='/form' render={() => {
+    <Route path='/form' exact render={() => {
       return (
         <MultiStepForm />
       )
     }}
      />
      <Footer />
-     <Route path='/confirmation' render={() => {
+     <Route path='/confirmation' exact render={() => {
        return (
          <ConfirmationPage />
        )

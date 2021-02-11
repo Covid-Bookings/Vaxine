@@ -18,7 +18,8 @@ const defaultData = {
   firstName: "first name",
   lastName: "last name",
   phoneNumber: "phone number",
-  email: "email"
+  email: "email",
+  hospital: "hospital"
 };
 
 const MultiStepForm = () => {

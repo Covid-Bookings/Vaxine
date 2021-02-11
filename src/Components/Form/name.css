@@ -15,8 +15,10 @@ h1 {
 
 
 .hospitalimg {
+/* margin-left: 40%; */
 width: 310px;
 height: 270px;
+border: 10px solid green;
 }
 
 .btn-wrapper {

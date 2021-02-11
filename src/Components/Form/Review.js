@@ -12,7 +12,8 @@ const Review = ({ setForm, formData, navigation }) => {
     email,
     date,
     time,
-    availability
+    availability,
+    hospital
   } = formData;
 
   const { previous } = navigation;
@@ -34,6 +35,7 @@ const Review = ({ setForm, formData, navigation }) => {
       <div>email: {`${email}`}</div>
       <div>date: {`${date}`}</div>
       <div>time: {`${availability}`}</div>
+      <div>hospital: {`${hospital}`}</div>
       {/* </div> */}
       <div>
       <button className="previousbtn" onClick={previous}>Previous</button>
