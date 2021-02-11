@@ -43,7 +43,7 @@ const MultiStepForm = () => {
     case "submit": 
       return <Submit {...props} />
     case "confirmation": 
-      return <ConfirmationPage formData={formData} {...props} />
+      return <ConfirmationPage {...props} />
     default:
       return null
   }
