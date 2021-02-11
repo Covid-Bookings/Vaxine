@@ -32,3 +32,8 @@ button{
   background-color: #6280EB;
   cursor: pointer;
 }
+
+.firstform {
+  /* display: flex; */
+  text-align: center;
+}

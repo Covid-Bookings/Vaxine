@@ -1,0 +1,23 @@
+.hospitalimg {
+  width: 310px;
+  height: 270px;
+  }
+
+.appointent-wrapper{
+  /* display: flex;
+  justify-content: center;
+  text-align: center; */
+}
+
+.appointment-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
