@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-h1 {
-	text-align: center;
-	font-family: 'Poppins', sans-serif;
-}
+h1,
 h2 {
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
@@ -16,21 +13,38 @@ li {
 }
 span {
 	font-weight: bold;
-	font-size: 23px;
-	padding: 20px;
+	font-size: 1.438rem;
+	padding: 1.25rem;
 }
 
 .senior-vaccine {
-	height: 400px;
-	width: 600px;
+	height: 25rem;
+	width: 37.5rem;
 	margin: auto;
 	display: block;
 }
 .steps {
-	border: 5px solid #ececec;
-	width: 500px;
-	height: 60px;
-	border-radius: 2px;
+	border: 0.313rem solid #ececec;
+	width: 31.25rem;
+	height: 3.75rem;
+	border-radius: 0.125rem;
 	margin: 2% auto;
-	padding: 5px;
+	padding: 0.313rem;
+}
+
+.book-btn {
+	color: white;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	margin: 3% auto;
+	background: #6280eb;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px 50px;
+	width: 212px;
+	height: 48px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

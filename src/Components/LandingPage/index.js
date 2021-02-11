@@ -10,6 +10,7 @@ const LandingPage = () => {
 				src='https://i.imgur.com/uYheX9P.jpg'
 				alt='senior-citizen-getting-vaccine'
 			/> */}
+			<button className='book-btn'>Schedule Now</button>
 			<h2>Make a Vaccination Appointment</h2>
 			<h1>in 5 easy steps</h1>
 			<ul>
