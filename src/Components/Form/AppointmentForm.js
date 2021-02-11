@@ -5,6 +5,7 @@ import StateDropTimes from './StatedropTimes';
 import StateDropHospitals from './StatedropHospitals';
 import Calendar from './Calendar';
 import HospitalImage from '../../images/national-cancer-institute.jpg';
+import ProgressBarTwo from '../../images/progresstwo.png';
 
 const AppointmentForm = ({ setForm, formData, navigation }) => {
 	const { availability, date, time, hospital } = formData;
@@ -14,6 +15,13 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 	return (
 		<div className='appointment-container'>
 			<div className='appointment-wrapper'>
+				<div className='progress-bar'>
+					<img
+						className='progress-bar'
+						src={ProgressBarTwo}
+						alt='progress bar step 2'
+					/>
+				</div>
 				<h1>Register</h1>
 				<img
 					className='hospitalimg'
@@ -32,18 +40,20 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 					<div className='time-container'>
 						<StateDropTimes
 							className='time-field'
-							label='Available times  '
+							placeholder='Available Times'
+							// label='Available times  '
 							name='availability'
-							value={availability}
+							// value={availability}
 							onChange={setForm}
 						/>
 					</div>
 					<div className='hospital-container'>
 						<StateDropHospitals
 							className='hospital-field'
-							label='Choose a Hospital  '
+							placeholder='Choose a Hospital'
+							// label='Choose a Hospital  '
 							name='hospital'
-							value={hospital}
+							// value={hospital}
 							onChange={setForm}
 						/>
 					</div>

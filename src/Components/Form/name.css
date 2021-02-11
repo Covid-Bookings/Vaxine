@@ -40,3 +40,8 @@ button {
 	/* display: flex; */
 	text-align: center;
 }
+.progress-bar {
+	margin: 2% auto;
+	width: 400px;
+	height: 40px;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import './confirmation.css';
 import VaxineShotLogo from '../../images/vaxine-shot-logo.png';
+import ProgressBarFour from '../../images/progressfour.png';
 
 const ConfirmationPage = (props) => {
 	const location = useLocation();
@@ -11,7 +12,6 @@ const ConfirmationPage = (props) => {
 		firstName,
 		lastName,
 		date,
-		time,
 		availability,
 		hospital,
 	} = location.state.formData;
@@ -19,6 +19,13 @@ const ConfirmationPage = (props) => {
 	return (
 		<div className='confirmation-wrapper'>
 			<div className='confirmation-content'>
+				<div className='progress-bar'>
+					<img
+						className='progress-bar'
+						src={ProgressBarFour}
+						alt='progress bar step 4'
+					/>
+				</div>
 				<h1>
 					Appointment <br />
 					Confirmed

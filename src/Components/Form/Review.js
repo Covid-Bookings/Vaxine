@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './review.css';
-
+import ProgressBarThree from '../../images/progressthree.png';
 import Disclaimer from './Disclaimer';
 import HospitalImage from '../../images/national-cancer-institute.jpg';
 
@@ -23,6 +23,13 @@ const Review = ({ setForm, formData, navigation }) => {
 	return (
 		<div className='review-wrapper'>
 			{/* <div className="review-contents"> */}
+			<div className='progress-bar'>
+				<img
+					className='progress-bar'
+					src={ProgressBarThree}
+					alt='progress bar step 3'
+				/>
+			</div>
 			<h3>Review </h3>
 			<img className='hospitalimg' src={HospitalImage} alt='hospital-fossad' />
 			<div className='review-content'>
