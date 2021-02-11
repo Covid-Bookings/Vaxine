@@ -14,7 +14,6 @@ function App() {
     <>
     <Router>
       <Navbar />
-    <h1>Home Component</h1>
     <Route path='/' render={() => {
       return (
         <LandingPage />

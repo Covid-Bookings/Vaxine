@@ -10,6 +10,7 @@ const Name = ({ setForm, formData, navigation }) => {
 
   return (
     <div className="form">
+      <h1>Register</h1>
       <ItemForm
         label="First Name"
         name="firstName"
@@ -29,7 +30,7 @@ const Name = ({ setForm, formData, navigation }) => {
         onChange={setForm}
       />
       <ItemForm
-        label="email"
+        label="Email"
         name="email"
         value={email}
         onChange={setForm}

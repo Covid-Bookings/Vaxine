@@ -13,6 +13,7 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 
   return (
     <div className="form">
+      <h1>Register</h1>
       {/* <ItemForm
         label="time"
         name="time"
