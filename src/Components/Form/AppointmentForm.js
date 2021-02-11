@@ -16,9 +16,13 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 	return (
 		<div className='appointment-container'>
 			<div className='appointment-wrapper'>
-			<div className="progress-bar">
-			<img className="progress-bar" src={ProgressBarTwo} alt="progress bar step 2" />
-			</div>
+				<div className='progress-bar'>
+					<img
+						className='progress-bar'
+						src={ProgressBarTwo}
+						alt='progress bar step 2'
+					/>
+				</div>
 				<h1>Register</h1>
 				<img
 					className='hospitalimg'
@@ -37,8 +41,7 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 					<div className='time-container'>
 						<StateDropTimes
 							className='time-field'
-							placeholder="Available Times"
-
+							placeholder='Available Times'
 							// label='Available times  '
 							name='availability'
 							// value={availability}
@@ -48,7 +51,7 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 					<div className='hospital-container'>
 						<StateDropHospitals
 							className='hospital-field'
-							placeholder="Choose a Hospital"
+							placeholder='Choose a Hospital'
 							// label='Choose a Hospital  '
 							name='hospital'
 							// value={hospital}
