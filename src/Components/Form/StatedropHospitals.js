@@ -1,9 +1,9 @@
 import React from "react";
 
 const hospitalOptions = [
- ["Hospital 1", "Hospital 1"],
- ["Hospital 2", "Hospital 2"],
- ["Hospital 3", "Hospital 3"]
+ ["NewYork-Presbyterian Lower Manhattan Hospital", "NewYork-Presbyterian Lower Manhattan Hospital"],
+ ["NYC Health + Hospitals / Bellevue", "NYC Health + Hospitals / Bellevue"],
+ ["Mount Sinai Beth Israel", "Mount Sinai Beth Israel"]
 ]
 
 

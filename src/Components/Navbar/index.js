@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './navbar.css';
 import Vaxine from '../../images/vaxine.png';
 import { FaBars } from 'react-icons/fa';

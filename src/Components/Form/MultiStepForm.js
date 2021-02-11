@@ -6,12 +6,14 @@ import Name from './Name';
 import AppointmentForm from './AppointmentForm';
 import Review from './Review';
 import Submit from './Submit';
+import ConfirmationPage from './Confirmation';
 
 const steps =[
    {id: 'name'},
    {id: 'appointmentform'},
    {id: "review"},
    {id: "submit"}, 
+   {id: "confirmation"}, 
 ];
 
 const defaultData = {
@@ -38,6 +40,8 @@ const MultiStepForm = () => {
       return <Review {...props} />
     case "submit": 
       return <Submit {...props} />
+    case "confirmation": 
+      return <ConfirmationPage formData={formData} {...props} />
     default:
       return null
   }

@@ -68,3 +68,7 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+#disclaimer{
+  padding: 20px;
+}

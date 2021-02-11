@@ -5,8 +5,9 @@ const Disclaimer = () => {
 
   return (
     <div>
-    <div className="disclaimer">
-      <p>DISCLAIMER: VAXYN IS A VACCINE SCHEDULING SYSTEM. 
+      
+    <div className="disclaimer-content">
+      <p id="disclaimer">DISCLAIMER: VAXYN IS A VACCINE SCHEDULING SYSTEM. 
         IT DOES NOT GIVE ANY MEDICAL ADVICE ON VACCINATION OR ANY SIDE EFFECTS. 
         THE DISPENSATION OF THE VACCINE IS AT THE MEDICAL DISCRETION OF THE 
         PERSON ADMINISTERING THE VACCINE. OTHENA TAKES NO RESPONSIBILITY FOR ANY 
@@ -23,6 +24,7 @@ const Disclaimer = () => {
 </label>
   
 </div>
+
     </div>
   )
 }

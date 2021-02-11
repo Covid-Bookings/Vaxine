@@ -15,7 +15,6 @@ const Name = ({ setForm, formData, navigation }) => {
       <h1>Register</h1>
       <div className="form-content">
       <img  className="hospitalimg" src={HospitalImage} alt="hospital fossad" />
-      <p>some text about the hospital</p> 
       <ItemForm
         className="firstform"
         label="First Name"
