@@ -1,23 +1,58 @@
 .hospitalimg {
-  width: 310px;
-  height: 270px;
-  }
-
-.appointent-wrapper{
-  /* display: flex;
-  justify-content: center;
-  text-align: center; */
+	width: 310px;
+	height: 270px;
+	margin: 2% auto;
+	border-radius: 15px;
 }
 
+.appointment-container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+/* .appointment-wrapper {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+} */
+
 .appointment-content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
 
 .btn-container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.calendar-widget {
+	padding: 30px;
+}
+
+.time-field {
+	padding: 5px;
+	border-radius: 15px;
+}
+.hospital-field {
+	padding: 5px;
+	border-radius: 15px;
+}
+
+.time-container {
+	padding: 15px;
+}
+.hospital-container {
+	padding-bottom: 15px;
+}
+.previousbtn {
+	margin-right: 200px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.nextbtn {
+	font-size: 15px;
+	font-weight: bold;
 }
