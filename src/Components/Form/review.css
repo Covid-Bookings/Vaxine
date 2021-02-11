@@ -1,0 +1,31 @@
+.review-wrapper {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 100px;
+
+
+  /* padding: 10px; */
+}
+
+.review-contents {
+  /* position: relative; */
+  /* display: flex; */
+  justify-content: center;
+  /* flex-direction: column; */
+  /* text-align: center; */
+}
+
+.previousbtn{
+
+}
+
+.btn-wrapper {
+
+}
+
+button{
+
+}

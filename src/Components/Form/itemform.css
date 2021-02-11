@@ -1,0 +1,10 @@
+label {
+  text-align: center;
+
+}
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  border: 2px light grey;
+}

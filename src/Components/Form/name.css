@@ -1,0 +1,34 @@
+.form-content{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.hospitalimg {
+width: 310px;
+height: 270px;
+}
+
+.btn-wrapper {
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 30px;
+  background-color: #6280EB;
+  cursor: pointer;
+}

@@ -9,9 +9,11 @@ const Navbar = () => {
   return (
     <div className="navbar container">
       <div className="mobile"><FaBars /></div>
+      <div className="nav-logo-wrapper">
       <Link to='/'>
-      <img src={Vaxine} />
+      <img  className="navbar-logo" src={Vaxine} alt="vaxing logo"/>
       </Link>
+      </div>
     </div>
   )
 }
