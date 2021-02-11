@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import MultiStepForm from './Components/Form/MultiStepForm';
+import Footer from './Components/Footer/index';
+import Navbar from './Components/Navbar/index';
+import LandingPage from './Components/LandingPage/index';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<Router>
+				<Navbar />
+				<Route
+					path='/'
+					render={() => {
+						return <LandingPage />;
+					}}
+				/>
+				<Route
+					path='/form'
+					render={() => {
+						return <MultiStepForm />;
+					}}
+				/>
+				<Footer />
+			</Router>
+		</>
+	);
 }
 
 export default App;
