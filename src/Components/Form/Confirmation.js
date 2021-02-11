@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 import './confirmation.css';
 import VaxineShotLogo from '../../images/vaxine-shot-logo.png'
 
-const ConfirmationPage = ({ formData }) => {
-	const {
-    firstName,
-    // lastName,
-    // phoneNumber,
-    // email,
-    // date,
-    // time,
-    // availability,
-    // hospital
-  } = formData;
+const ConfirmationPage = ({  }) => {
+	// const {
+  //   firstName,
+  //   // lastName,
+  //   // phoneNumber,
+  //   // email,
+  //   // date,
+  //   // time,
+  //   // availability,
+  //   // hospital
+  // } = formData;
 
 	return (
 			<div className='confirmation-wrapper'>
@@ -24,7 +24,7 @@ const ConfirmationPage = ({ formData }) => {
 					</h1>
                     <img src={VaxineShotLogo} alt="vaxine-logo"/>
 					<h4>
-						Name: <span>{`${firstName}`}</span>
+						Name: <span>James</span>
 					</h4>
 					<h4>
 						Location: <span>14 Hospital Blvd</span>

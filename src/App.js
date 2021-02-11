@@ -27,14 +27,14 @@ function App() {
       )
     }}
      />
-     <Footer />
      <Route path='/confirmation' exact render={() => {
        return (
          <ConfirmationPage />
-       )
-     }}
+         )
+        }}
       />
     </Router>
+    <Footer />
     </>
   );
 }

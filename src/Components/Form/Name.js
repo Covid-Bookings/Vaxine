@@ -4,6 +4,7 @@ import './name.css';
 
 import ItemForm from "./ItemForm";
 import HospitalImage from '../../images/national-cancer-institute.jpg';
+import Footer from '../../Components/Footer/index';
 
 const Name = ({ setForm, formData, navigation }) => {
   const { firstName, lastName, phoneNumber, email} = formData;
