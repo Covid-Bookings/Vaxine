@@ -4,6 +4,7 @@ import './review.css';
 import ProgressBarThree from '../../images/progressthree.png';
 import Disclaimer from './Disclaimer';
 import HospitalImage from '../../images/national-cancer-institute.jpg';
+import ProgressBarThree from '../../images/progressthree.png';
 
 const Review = ({ setForm, formData, navigation }) => {
 	const {

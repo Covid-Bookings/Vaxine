@@ -3,7 +3,8 @@ import './name.css';
 import ProgressBarOne from '../../images/progressone.png';
 import ItemForm from './ItemForm';
 import HospitalImage from '../../images/national-cancer-institute.jpg';
-import Footer from '../../Components/Footer/index';
+import ProgressBarOne from '../../images/progressone.png';
+// import Footer from '../../Components/Footer/index';
 
 const Name = ({ setForm, formData, navigation }) => {
 	const { firstName, lastName, phoneNumber, email } = formData;
