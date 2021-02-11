@@ -4,16 +4,16 @@ import './confirmation.css';
 import VaxineShotLogo from '../../images/vaxine-shot-logo.png'
 
 const ConfirmationPage = ({ formData }) => {
-	const {
-    firstName = ('first name')
-    // lastName,
-    // phoneNumber,
-    // email,
-    // date,
-    // time,
-    // availability,
-    // hospital
-  } = formData;
+	// const {
+  //   firstName,
+  //   // lastName,
+  //   // phoneNumber,
+  //   // email,
+  //   // date,
+  //   // time,
+  //   // availability,
+  //   // hospital
+  // } = formData;
 
 	return (
 			<div className='confirmation-wrapper'>
@@ -25,17 +25,17 @@ const ConfirmationPage = ({ formData }) => {
                     <img src={VaxineShotLogo} alt="vaxine-logo"/>
 					<h4>
 						<div name="firstName">
-						Name: <span name="firstName">{`${firstName}`}</span>
+						Name: <span>Kelly Clarkson</span>
 						</div>
 					</h4>
 					<h4>
-						Location: <span>14 Hospital Blvd</span>
+						Location: <span>Mount Sinai Beth Israel</span>
 					</h4>
 					<h4>
-						Date: <span>02/09/21</span>
+						Date: <span>02/18/21</span>
 					</h4>
 					<h4>
-						Time: <span>3:00 PM</span>
+						Time: <span>1:00 PM</span>
 					</h4>
 					<br />
 					<p>
@@ -49,13 +49,13 @@ const ConfirmationPage = ({ formData }) => {
 					</p>
 					<br />
 					<br />
-			<div className='button-wrapper'>
+			{/* <div className='button-wrapper'>
 				<Link className='back-home-button' to='/'>
 					Back to Home
-				</Link>
+				</Link> */}
 			</div>
 			</div>
-				</div>
+				// </div>
 	);
 };
 
