@@ -1,8 +1,3 @@
-/* .footerWrapper {
-  display: flex;
-
-} */
-
 .footer {
 display: flex;
 align-items: center;
@@ -23,6 +18,11 @@ img {
 
 p{
   color: #6280EB;
+  padding: 2px 0 3px 0;
+}
+
+.footer-list {
+  padding: 20px 0;
 }
 
 #footerTitle{
@@ -31,4 +31,5 @@ color: darkgrey;
 
 #copyright {
   font-size: 12px;
+  padding-top: 30px;
 }

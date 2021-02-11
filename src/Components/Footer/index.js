@@ -4,10 +4,10 @@ import Vaxine from '../../images/vaxine.png';
 
 const Footer = () => {
   return (
-    <div className="footer-wrapper">
+  <div className="footer-wrapper">
     <div className='footer container'>
       <p id="footerTitle">A cure in your city</p>
-      <img src={Vaxine} />
+      <img src={Vaxine} alt="vaxine name logo"/>
       <div className="footer-list">
         <p>Terms of Service</p>
         <p>Privacy Policy</p>

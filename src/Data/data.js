@@ -1,3 +1,5 @@
+import Disclaimer from "../Components/Form/Disclaimer"
+
 const hospitals = (
   {
     "name": "NewYork-Presbyterian Lower Manhattan Hospital",
@@ -18,3 +20,5 @@ const hospitals = (
     "hours": "8:000 AM - 11:00 PM"
   }
 )
+
+
