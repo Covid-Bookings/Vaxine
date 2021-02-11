@@ -18,27 +18,27 @@ const LandingPage = () => {
 			<h1>in 5 easy steps</h1>
 			<ul>
 				<div className='steps'>
-					<li>
+					<li className="landing-list">
 						<span>1</span> Check Eligibility
 					</li>
 				</div>
 				<div className='steps'>
-					<li>
+					<li className="landing-list">
 						<span>2</span> Find a COVID-19 vaccine location
 					</li>
 				</div>
 				<div className='steps'>
-					<li>
+					<li className="landing-list">
 						<span>3</span> Select an available day and time
 					</li>
 				</div>
 				<div className='steps'>
-					<li>
+					<li className="landing-list">
 						<span>4</span> Register
 					</li>
 				</div>
 				<div className='steps'>
-					<li>
+					<li className="landing-list">
 						<span>5</span> Confirm
 					</li>
 				</div>

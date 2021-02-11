@@ -1,0 +1,42 @@
+.form-content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 10px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.hospitalimg {
+	margin: 2% auto;
+	width: 310px;
+	height: 270px;
+	border-radius: 15px;
+}
+
+.btn-wrapper {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 30px;
+	background-color: #6280eb;
+	cursor: pointer;
+	border: none;
+	color: white;
+}
+
+.firstform {
+	/* display: flex; */
+	text-align: center;
+}

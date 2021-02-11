@@ -1,4 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import './review.css';
+
+import Disclaimer from './Disclaimer';
+import HospitalImage from '../../images/national-cancer-institute.jpg';
 
 const Review = ({ setForm, formData, navigation }) => {
   const {
@@ -7,8 +12,8 @@ const Review = ({ setForm, formData, navigation }) => {
     phoneNumber,
     email,
     date,
-    time,
-    availability
+    availability,
+    hospital
   } = formData;
 
   const { previous } = navigation;
@@ -16,48 +21,29 @@ const Review = ({ setForm, formData, navigation }) => {
   const { go } = navigation;
 
   return (
-    <div className="form">
-      <h3>Review your data</h3>
-      {/* <h4>
-        Name
-        <button onClick={() => go("names")}>Edit</button>
-      </h4> */}
-      <div>
-        {" "}
-        First name: {`${firstName}`},
-        <br />
-        Last Name: {`${lastName}`},
+    <div className="review-wrapper">
+      {/* <div className="review-contents"> */}
+      <h3>Review </h3>
+      <img  className="hospitalimg" src={HospitalImage} alt="hospital-fossad" />
+      <div className="review-content">
+        <b>Name:</b> {`${firstName} ${lastName}`}
       </div>
-      <div>phoneNumber: {`${phoneNumber}`}</div>
-      <div>email: {`${email}`}</div>
-      <div>date: {`${date}`}</div>
-      <div>time: {`${availability}`}</div>
-      {/* <h4>
-        Address
-        <button onClick={() => go("address")}>Edit</button>
-      </h4> */}
-      {/* <div>
-        Address: {`${address}`},
-        <br />
-        City: {` ${city}`},
-        <br />
-        State: {`${state}`},
-        <br />
-        ZIP: {`${zip}`}
-      </div> */}
-      {/* <h4>
-        Contact
-        <button onClick={() => go("contact")}>Edit</button>
-      </h4> */}
-      {/* <div>
-        Phone: {`${phone}`},
-        <br />
-        E-mail: {`${email}`}
-      </div> */}
+      <div className="review-content"><b>Phone Number:</b> {`${phoneNumber}`}</div>
+      <div className="review-content"><b>Email:</b> {`${email}`}</div>
+      <div className="review-content"><b>Appointment Date:</b> {`${date}`}</div>
+      <div className="review-content"><b>Time:</b> {`${availability}`}</div>
+      <div className="review-content"><b>Location:</b> {`${hospital}`}</div>
+      {/* </div> */}
       <div>
       <button onClick={previous}>Previous</button>
-        <button onClick={() => go("submit")}>Submit</button>
-      </div>
+      <Disclaimer />
+      </div >
+      <div className="submit-wrapper">
+        <Link to='/confirmation'>
+          <button>Submit</button>
+        </Link>
+        {/* <button onClick={() => go("submit")}>Submit</button> */}
+        </div>
     </div>
   );
 };
