@@ -1,8 +1,10 @@
 import React from 'react';
-
-import ItemForm from './ItemForm';
+import './appointmentform.css';
+import ItemForm from "./ItemForm";
 import StateDrop from './Statedrop';
 import Calendar from './Calendar';
+import HospitalImage from '../../images/national-cancer-institute.jpg';
+
 
 const AppointmentForm = ({ setForm, formData, navigation }) => {
 	const { availability, date, time } = formData;
@@ -11,38 +13,20 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 
 	return (
 		<div className='form'>
-			{/* <ItemForm
-        label="time"
-        name="time"
-        value={availability}
-        onChange={setForm}
-        /> */}
 			<Calendar
-				// starDate={startDate}
-				// setStartDate={setStartDate}
 				label='date'
 				value={date}
 				onChange={setForm}
 			/>
-			{/* <ItemForm
-        label="date"
-        name="date"
-        value={date}
-        onChange={setForm}
-      /> */}
-			<StateDrop
-				label='Available Times'
-				name='availability'
-				value={availability}
-				onChange={setForm}
-			/>
-
-			<div>
-				<button onClick={previous}>Previous</button>
-				<button onClick={next}>Next</button>
-			</div>
-		</div>
-	);
+    
+      <StateDrop label="Available Times" name="availability" value={availability} onChange={setForm} />
+      </div>
+      <div className="btn-container">
+        <button className="previousbtn" onClick={previous}>Previous</button>
+        <button className="nextbtn" onClick={next}>Next</button>
+      </div>
+    </div>
+  );
 };
 
 export default AppointmentForm;
