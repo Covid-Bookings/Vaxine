@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h1 {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+h2 {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+li {
+	list-style-type: none;
+}
+span {
+	font-weight: bold;
+	font-size: 23px;
+	padding: 20px;
+}
+
+.senior-vaccine {
+	height: 400px;
+	width: 600px;
+	margin: auto;
+	display: block;
+}
+.steps {
+	border: 5px solid #ececec;
+	width: 500px;
+	height: 60px;
+	border-radius: 2px;
+	margin: 2% auto;
+	padding: 5px;
+}
