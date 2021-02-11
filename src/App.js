@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import MultiStepForm from './Components/Form/MultiStepForm';
 import Footer from './Components/Footer/index';

@@ -1,7 +1,5 @@
-
-import React from "react";
+import React from 'react';
 import './appointmentform.css';
-
 import ItemForm from "./ItemForm";
 import StateDrop from './Statedrop';
 import Calendar from './Calendar';
@@ -9,35 +7,18 @@ import HospitalImage from '../../images/national-cancer-institute.jpg';
 
 
 const AppointmentForm = ({ setForm, formData, navigation }) => {
+	const { availability, date, time } = formData;
 
-  const { availability, date, time} = formData;
+	const { previous, next } = navigation;
 
-  const { previous, next } = navigation;
-
-  return (
-    <div className="appointment-wrapper">
-      <h1>Register</h1>
-      <img className="hospitalimg" src={HospitalImage} alt="hospital fossad"/>
-
-      {/* <ItemForm
-        label="time"
-        name="time"
-        value={availability}
-        onChange={setForm}
-        /> */}
-      <div className="appointment-content">
-      <Calendar 
-      label="date"
-      name="date"
-      value={date}
-      onChange={setForm}
-      />
-      {/* <ItemForm
-        label="date"
-        name="date"
-        value={date}
-        onChange={setForm}
-      /> */}
+	return (
+		<div className='form'>
+			<Calendar
+				label='date'
+				value={date}
+				onChange={setForm}
+			/>
+    
       <StateDrop label="Available Times" name="availability" value={availability} onChange={setForm} />
       </div>
       <div className="btn-container">
