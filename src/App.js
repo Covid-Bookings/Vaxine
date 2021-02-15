@@ -10,33 +10,34 @@ import LandingPage from './Components/LandingPage/index';
 import ConfirmationPage from './Components/Form/Confirmation';
 
 function App() {
-
-  return (
-    <>
-    <Router>
-      <Navbar />
-    <Route path='/' exact render={() => {
-      return (
-        <LandingPage />
-      )
-    }}
-    />
-    <Route path='/form' exact render={() => {
-      return (
-        <MultiStepForm />
-      )
-    }}
-     />
-     <Route path='/confirmation' exact render={() => {
-       return (
-         <ConfirmationPage />
-         )
-        }}
-      />
-    </Router>
-    <Footer />
-    </>
-  );
+	return (
+		<>
+			<Router>
+				<Navbar />
+				<Route
+					path='/'
+					exact
+					render={() => {
+						return <LandingPage />;
+					}}
+				/>
+				<Route
+					path='/form'
+					exact
+					render={() => {
+						return <MultiStepForm />;
+					}}
+				/>
+				<Route
+					path='/confirmation'
+					render={() => {
+						return <ConfirmationPage />;
+					}}
+				/>
+			</Router>
+			<Footer />
+		</>
+	);
 }
 
 export default App;

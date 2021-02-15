@@ -7,7 +7,7 @@ import ProgressFour from '../../images/progressfour.png';
 const ConfirmationPage = (props) => {
 	const location = useLocation();
 	// Gets back information object from client
-	// console.log(location.state.formData);
+	console.log(location.state.formData);
 	const {
 		firstName,
 		lastName,
@@ -15,7 +15,8 @@ const ConfirmationPage = (props) => {
 		availability,
 		hospital,
 	} = location.state.formData;
-
+	const clientData = location.state.formData;
+	console.log(clientData);
 	return (
 		<div className='confirmation-wrapper'>
 			<div className='confirmation-content'>
@@ -31,20 +32,26 @@ const ConfirmationPage = (props) => {
 					Confirmed
 				</h1>
 				<img src={VaxineShotLogo} alt='vaxine-logo' />
-				<h4>
-					<div name='firstName'>
-						Name: <span>{`${firstName} ${lastName}`}</span>
-					</div>
-				</h4>
-				<h4>
-					Location: <span>{hospital}</span>
-				</h4>
-				<h4>
-					Date: <span>{date}</span>
-				</h4>
-				<h4>
-					Time: <span>{availability}</span>
-				</h4>
+				{Object.keys(clientData).map((value, key) => {
+					console.log(clientData);
+					return (
+						<h4>Name: {firstName}</h4>
+						// <h4>
+						// 	<div name='firstName'>
+						// 		Name: <span>{`${clientData.firstName} ${clientData.lastName}`}</span>
+						// 	</div>
+						// </h4>
+						// <h4>
+						// 	Location: <span>{hospital}</span>
+						// </h4>
+						// <h4>
+						// 	Date: <span>{date}</span>
+						// </h4>
+						// <h4>
+						// 	Time: <span>{availability}</span>
+						// </h4>
+					);
+				})}
 				<br />
 				<p>
 					You will be receiving a confirmation e-mail. Please make sure to bring
