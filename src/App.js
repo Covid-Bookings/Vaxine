@@ -7,6 +7,7 @@ import MultiStepForm from './Components/Form/MultiStepForm';
 import Footer from './Components/Footer/index';
 import Navbar from './Components/Navbar/index';
 import LandingPage from './Components/LandingPage/index';
+import EligibilityPage from './Components/EligibilityPage/index'
 import ConfirmationPage from './Components/Form/Confirmation';
 
 function App() {
@@ -21,6 +22,12 @@ function App() {
 						return <LandingPage />;
 					}}
 				/>
+				<Route path='/eligibility'
+						exact 
+						render={() => {
+							return <EligibilityPage />
+						}}
+						/>
 				<Route
 					path='/form'
 					exact
