@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import './confirmation.css';
 import VaxineShotLogo from '../../images/vaxine-shot-logo.png';
 import ProgressFour from '../../images/progressfour.png';
@@ -7,16 +7,17 @@ import ProgressFour from '../../images/progressfour.png';
 const ConfirmationPage = (props) => {
 	const location = useLocation();
 	// Gets back information object from client
-	console.log(location.state.formData);
+	// console.log(location.state.formData);
 	const {
 		firstName,
 		lastName,
 		date,
 		availability,
 		hospital,
+		email,
+		phoneNumber
 	} = location.state.formData;
-	const clientData = location.state.formData;
-	console.log(clientData);
+
 	return (
 		<div className='confirmation-wrapper'>
 			<div className='confirmation-content'>
@@ -31,46 +32,47 @@ const ConfirmationPage = (props) => {
 					Appointment <br />
 					Confirmed
 				</h1>
-				<img src={VaxineShotLogo} alt='vaxine-logo' />
-				{Object.keys(clientData).map((value, key) => {
-					console.log(clientData);
-					return (
-						<h4>Name: {firstName}</h4>
-						// <h4>
-						// 	<div name='firstName'>
-						// 		Name: <span>{`${clientData.firstName} ${clientData.lastName}`}</span>
-						// 	</div>
-						// </h4>
-						// <h4>
-						// 	Location: <span>{hospital}</span>
-						// </h4>
-						// <h4>
-						// 	Date: <span>{date}</span>
-						// </h4>
-						// <h4>
-						// 	Time: <span>{availability}</span>
-						// </h4>
-					);
-				})}
-				<br />
+				<img className='vaxineimg' src={VaxineShotLogo} alt='vaxine-logo' />
+
+						<div className='content'>
+						 		<b>Name:</b> {firstName} {lastName}
+						 	</div>
+							 <div className='content'>
+						 <b>Email:</b> {email}
+						 </div>
+							 <div className='content'>
+						 <b>Phone Number:</b> {phoneNumber}
+						 </div>
+							 <div className='content'>
+						 <b>Hospital:</b> {hospital}
+						 </div>
+						 	{/* Date: <span>{date}</span> */}
+
+						 	{/* Time: <span>{date}</span> */}
+
+	
+				<div className='confirmation-updates-wrapper'>
+				<div className='confirmation-updates'> 
 				<p>
-					You will be receiving a confirmation e-mail. Please make sure to bring
-					it to your appointment.
+					YOU WILL BE RECEIVING A CONFIRMATION E-MAIL. PLEASE MAKE SURE TO BRING IT TO YOUR APPOINTMENT. 
 				</p>
-				<br />
+				<br></br>
+				<br></br>
 				<p>
-					If you need to reschedule your appointment, make sure to cancel your
-					current appointment within 24 hr before the confirmed date and time.
+					IF YOU NEED TO RESCHEDULE YOUR APPOINTMENT, MAKE SURE TO CANCEL YOUR CURRENT APPOINTMENT WITHIN 24 HOURS BEFORE THE CONFIRMED DATE AND TIME. 
 				</p>
-				<br />
-				<br />
+				</div>
 				{/* <div className='button-wrapper'>
 				<Link className='back-home-button' to='/'>
 					Back to Home
 				</Link> */}
+				<div className='homebtn'>
+				<Link  to='/'> <button>Home</button> </Link>
+				</div>
 			</div>
+				<div className='space'> </div>
 		</div>
-		// </div>
+	 </div>
 	);
 };
 

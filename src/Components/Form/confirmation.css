@@ -17,10 +17,17 @@ img {
     padding-top: 20px;
 }
 
-h4 {
+/* h4 {
 	font-size: 14px;
     line-height: 21px;
     padding-top: 10px;
+} */
+.vaxineimg {
+    width: 15rem;
+    height: 15rem;
+}
+.content {
+    padding: 20px;
 }
 
 span {
@@ -29,8 +36,15 @@ span {
 	line-height: 18px;
 }
 
-p {
-	color: black;
+.confirmation-updates-wrapper {
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.confirmation-updates {
+    padding: 20px;
+    border: 1px solid #6280EB;
+    border-radius: 15px;
 }
 
 .button-wrapper {
@@ -48,4 +62,12 @@ p {
     font-size: 16px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.space{
+	margin-bottom: 11rem;
+}
+
+.homebtn{
+	margin: 20px;
 }
