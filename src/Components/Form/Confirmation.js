@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import './confirmation.css';
 import VaxineShotLogo from '../../images/vaxine-shot-logo.png';
-import ProgressBarFour from '../../images/progressfour.png';
+import ProgressFour from '../../images/progressfour.png';
 
 const ConfirmationPage = (props) => {
 	const location = useLocation();
@@ -22,7 +22,7 @@ const ConfirmationPage = (props) => {
 				<div className='progress-bar'>
 					<img
 						className='progress-bar'
-						src={ProgressBarFour}
+						src={ProgressFour}
 						alt='progress bar step 4'
 					/>
 				</div>
