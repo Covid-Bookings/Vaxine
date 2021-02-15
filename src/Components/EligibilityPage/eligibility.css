@@ -1,0 +1,48 @@
+.eligible-container {
+    display: flex;
+}
+
+.eligibility-buttons {
+    margin: auto;
+    padding: 10px;
+}
+
+.eligible-button {
+    display: block;
+    margin: 5% auto;
+    padding: 20px;
+    width: 216px;
+    background: #C2CEF8;
+    color: black;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+i {
+    font-weight: 400;
+}
+
+/* CODE BELOW SOURCED HERE: http://jsfiddle.net/gKve7/ */
+
+.line-or {
+    overflow: hidden;
+    text-align: center;
+}
+.line-or > span {
+    position: relative;
+    display: inline-block;
+}
+.line-or > span:before, .line-or > span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 591px;
+    margin: 0 20px;
+}
+.line-or > span:before {
+    right: 100%;
+}
+.line-or >span:after {
+    left: 100%;
+}
