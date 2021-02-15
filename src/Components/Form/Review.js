@@ -44,9 +44,6 @@ const Review = ({ setForm, formData, navigation }) => {
 				<b>Appointment Date:</b> {`${date}`}
 			</div>
 			<div className='review-content'>
-				<b>Time:</b> {`${availability}`}
-			</div>
-			<div className='review-content'>
 				<b>Location:</b> {`${hospital}`}
 			</div>
 			<div>
