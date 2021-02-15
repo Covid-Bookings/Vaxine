@@ -4,6 +4,7 @@
 .container {
   display: block;
   position: relative;
+  padding-top: 20px;
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
@@ -31,7 +32,10 @@
   height: 25px;
   width: 25px;
   background-color: #eee;
-  padding-left:
+  border: 1px solid #6280EB;
+  border-radius: 15px;
+  margin-left: 20px;
+  
 }
 
 /* On mouse-over, add a grey background color */
@@ -41,7 +45,7 @@
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #6280EB;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -58,8 +62,8 @@
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
+  left: 15px;
+  top: 10px;
   width: 5px;
   height: 10px;
   border: solid white;
@@ -69,6 +73,13 @@
   transform: rotate(45deg);
 }
 
+.disclaimer-content {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 #disclaimer{
   padding: 20px;
+  border: 1px solid #6280EB;
+  border-radius: 15px;
 }

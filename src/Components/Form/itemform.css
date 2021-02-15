@@ -3,8 +3,8 @@ label {
 
 }
 input {
-  width: 200px;
-  height: 30px;
+  width: 300px;
+  height: 40px;
   border-radius: 10px;
   border: 2px solid #767779; 
 }

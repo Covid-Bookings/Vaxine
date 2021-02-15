@@ -6,7 +6,7 @@ import StateDropTimes from './StatedropTimes';
 import StateDropHospitals from './StatedropHospitals';
 import Calendar from './Calendar';
 import HospitalImage from '../../images/national-cancer-institute.jpg';
-import ProgressTwo from '../../images/progresstwo.png';
+import ProgressBarTwo from '../../images/progresstwo.png';
 
 const AppointmentForm = ({ setForm, formData, navigation }) => {
 	const { availability, date, time, hospital } = formData;
@@ -16,14 +16,10 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 	return (
 		<div className='appointment-container'>
 			<div className='appointment-wrapper'>
-				<div className='progress-bar'>
-					<img
-						className='progress-bar'
-						src={ProgressTwo}
-						alt='progress bar step 2'
-					/>
-				</div>
-				<h1>Register</h1>
+			<div className="progress-bar-two">
+			<img className="progress-bar-two" src={ProgressBarTwo} alt="progress bar step 2" />
+			</div>
+				<h2 id='register-two'>Register</h2>
 				<img
 					className='hospitalimg'
 					src={HospitalImage}
@@ -31,6 +27,18 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 				/>
 
 				<div className='appointment-content'>
+					<div className='time-container'>
+						<div className='hospital-container'>
+							<StateDropHospitals
+								className='hospital-field'
+								placeholder="Choose a Hospital"
+								// label='Choose a Hospital  '
+								name='hospital'
+								// value={hospital}
+								onChange={setForm}
+							/>
+						</div>
+					</div>
 					<Calendar
 						className='calendar-widget'
 						label='date'
@@ -38,26 +46,6 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 						value={date}
 						onChange={setForm}
 					/>
-					<div className='time-container'>
-						<StateDropTimes
-							className='time-field'
-							placeholder='Available Times'
-							// label='Available times  '
-							name='availability'
-							// value={availability}
-							onChange={setForm}
-						/>
-					</div>
-					<div className='hospital-container'>
-						<StateDropHospitals
-							className='hospital-field'
-							placeholder='Choose a Hospital'
-							// label='Choose a Hospital  '
-							name='hospital'
-							// value={hospital}
-							onChange={setForm}
-						/>
-					</div>
 				</div>
 				<div className='btn-container'>
 					<button className='previousbtn' onClick={previous}>
@@ -67,6 +55,7 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 						Next
 					</button>
 				</div>
+					<div className='space'></div>
 			</div>
 		</div>
 	);

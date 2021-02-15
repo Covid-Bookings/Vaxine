@@ -10,17 +10,20 @@
 	justify-content: center;
 	text-align: center;
 }
-/* .appointment-wrapper {
-	display: flex;
-	justify-content: center;
-	text-align: center;
-} */
 
 .appointment-content {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
+	margin-bottom: 2rem;
+
+}
+
+.progress-bar-two {
+	margin: 2% auto;
+	width: 400px;
+	height: 40px;
 }
 
 .btn-container {
@@ -29,7 +32,7 @@
 	text-align: center;
 }
 .calendar-widget {
-	padding: 30px;
+	text-align: center;
 }
 
 .time-field {
@@ -37,8 +40,10 @@
 	border-radius: 15px;
 }
 .hospital-field {
-	padding: 5px;
-	border-radius: 15px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+	border: 2px solid #767779; 
 }
 
 .time-container {
@@ -47,12 +52,18 @@
 .hospital-container {
 	padding-bottom: 15px;
 }
+
 .previousbtn {
-	margin-right: 200px;
+	margin-right: 25px;
 	font-size: 15px;
 	font-weight: bold;
 }
+
 .nextbtn {
 	font-size: 15px;
 	font-weight: bold;
+}
+
+.space{
+	margin-bottom: 11rem;
 }

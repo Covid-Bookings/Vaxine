@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 //CSS Modules, react-datepicker-cssmodules.css
@@ -8,16 +7,20 @@ const Calendar = ({ onChange }) => {
 	const [startDate, setStartDate] = useState(new Date());
 	return (
 		<DatePicker
-			selected={startDate}
-			onChange={(date) => {
-				setStartDate(date);
-				onChange({
+		// placeholderText="Click to select a date"
+		onChange={(date) => {
+			setStartDate(date);
+			onChange({
 					target: {
 						name: 'date',
 						value: date,
 					},
 				});
 			}}
+			selected={startDate}
+			showTimeSelect
+			dateFormat="Pp"
+			withPortal
 		/>
 	);
 };

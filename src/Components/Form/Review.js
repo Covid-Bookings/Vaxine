@@ -22,7 +22,6 @@ const Review = ({ setForm, formData, navigation }) => {
 
 	return (
 		<div className='review-wrapper'>
-			{/* <div className="review-contents"> */}
 			<div className='progress-bar'>
 				<img
 					className='progress-bar'
@@ -30,7 +29,7 @@ const Review = ({ setForm, formData, navigation }) => {
 					alt='progress bar step 3'
 				/>
 			</div>
-			<h3>Review </h3>
+			<h3>Review</h3>
 			<img className='hospitalimg' src={HospitalImage} alt='hospital-fossad' />
 			<div className='review-content'>
 				<b>Name:</b> {`${firstName} ${lastName}`}
@@ -50,12 +49,11 @@ const Review = ({ setForm, formData, navigation }) => {
 			<div className='review-content'>
 				<b>Location:</b> {`${hospital}`}
 			</div>
-			{/* </div> */}
 			<div>
-				<button onClick={previous}>Previous</button>
+			<div>
+				<button id='previousbtn' onClick={previous}>Previous</button>
 				<Disclaimer />
 			</div>
-			<div className='submit-wrapper'>
 				<Link
 					to={{
 						pathname: '/confirmation',
@@ -65,7 +63,6 @@ const Review = ({ setForm, formData, navigation }) => {
 					}}>
 					<button>Submit</button>
 				</Link>
-				{/* <button onClick={() => go("submit")}>Submit</button> */}
 			</div>
 		</div>
 	);

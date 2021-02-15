@@ -3,9 +3,6 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	padding: 20px 100px;
-
-	/* padding: 10px; */
 }
 
 .hospitalimg {
@@ -16,14 +13,14 @@
 }
 
 .review-content {
-	/* position: relative; */
-	/* display: flex; */
 	justify-content: center;
 	padding: 10px;
-	/* flex-direction: column; */
-	/* text-align: center; */
 }
 
-.submit-wrapper {
-	padding: 20px;
+#previousbtn{
+	margin: 20px;
+}
+
+h3{
+	font-size: 24px;
 }
