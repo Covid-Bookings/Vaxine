@@ -7,13 +7,14 @@
 	padding: 10px;
 }
 
-h1 {
+/* h1 {
 	display: flex;
 	justify-content: center;
-}
+	margin-bottom: -20px;
+} */
 
 .hospitalimg {
-	margin: 2% auto;
+	/* margin: 2% auto; */
 	width: 310px;
 	height: 270px;
 	border-radius: 15px;
@@ -46,8 +47,4 @@ button {
 	/* display: flex; */
 	text-align: center;
 }
-.progress-bar {
-	margin: 2% auto;
-	width: 400px;
-	height: 40px;
-}
+

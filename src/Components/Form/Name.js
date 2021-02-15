@@ -20,7 +20,7 @@ const Name = ({ setForm, formData, navigation }) => {
 					alt='progress bar step 1'
 				/>
 			</div>
-			<h1>Register</h1>
+			<h2>Register</h2>
 			<div className='form-content'>
 				<img
 					className='hospitalimg'
