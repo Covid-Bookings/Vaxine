@@ -5,7 +5,7 @@ import StateDropTimes from './StatedropTimes';
 import StateDropHospitals from './StatedropHospitals';
 import Calendar from './Calendar';
 import HospitalImage from '../../images/national-cancer-institute.jpg';
-import ProgressBarTwo from '../../images/progresstwo.png';
+import ProgressTwo from '../../images/progresstwo.png';
 
 const AppointmentForm = ({ setForm, formData, navigation }) => {
 	const { availability, date, time, hospital } = formData;
@@ -18,7 +18,7 @@ const AppointmentForm = ({ setForm, formData, navigation }) => {
 				<div className='progress-bar'>
 					<img
 						className='progress-bar'
-						src={ProgressBarTwo}
+						src={ProgressTwo}
 						alt='progress bar step 2'
 					/>
 				</div>
