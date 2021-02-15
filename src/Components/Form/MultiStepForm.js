@@ -1,28 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useForm, useStep } from 'react-hooks-helper';
 
 // child components
 import Name from './Name';
 import AppointmentForm from './AppointmentForm';
-import Calendar from './Calendar';
 import Review from './Review';
-import Submit from './Submit';
 import ConfirmationPage from './Confirmation';
 
-const steps =[
-   {id: 'name'},
-   {id: 'appointmentform'},
-   {id: "review"},
-   {id: "submit"}, 
-   {id: "confirmation"}, 
+const steps = [
+	{ id: 'name' },
+	{ id: 'appointmentform' },
+	{ id: 'review' },
+	{ id: 'confirmation' },
 ];
 
 const defaultData = {
-  firstName: "first name",
-  lastName: "last name",
-  phoneNumber: "phone number",
-  email: "email",
-  hospital: "hospital"
+	firstName: 'first name',
+	lastName: 'last name',
+	phoneNumber: 'phone number',
+	email: 'email',
+	hospital: 'hospital',
 };
 
 const MultiStepForm = () => {
@@ -32,21 +29,18 @@ const MultiStepForm = () => {
 
 	const props = { formData, setForm, navigation };
 
-
-  switch (id) {
-    case "name": 
-      return <Name {...props} />
-    case "appointmentform": 
-      return <AppointmentForm {...props} />
-    case "review": 
-      return <Review {...props} />
-    case "submit": 
-      return <Submit {...props} />
-    case "confirmation": 
-      return <ConfirmationPage {...props} />
-    default:
-      return null
-  }
+	switch (id) {
+		case 'name':
+			return <Name {...props} />;
+		case 'appointmentform':
+			return <AppointmentForm {...props} />;
+		case 'review':
+			return <Review {...props} />;
+		case 'confirmation':
+			return <ConfirmationPage {...props} />;
+		default:
+			return null;
+	}
 };
 
 export default MultiStepForm;

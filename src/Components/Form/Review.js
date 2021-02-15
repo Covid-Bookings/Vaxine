@@ -18,7 +18,7 @@ const Review = ({ setForm, formData, navigation }) => {
 
 	const { previous } = navigation;
 
-	const { go } = navigation;
+	const { next } = navigation;
 
 	return (
 		<div className='review-wrapper'>
@@ -50,10 +50,12 @@ const Review = ({ setForm, formData, navigation }) => {
 				<b>Location:</b> {`${hospital}`}
 			</div>
 			<div>
-			<div>
-				<button id='previousbtn' onClick={previous}>Previous</button>
-				<Disclaimer />
-			</div>
+				<div>
+					<button id='previousbtn' onClick={previous}>
+						Previous
+					</button>
+					<Disclaimer />
+				</div>
 				<Link
 					to={{
 						pathname: '/confirmation',
