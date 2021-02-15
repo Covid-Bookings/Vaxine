@@ -3,6 +3,7 @@ import './name.css';
 import ProgressOne from '../../images/progressone.png';
 import ItemForm from './ItemForm';
 import HospitalImage from '../../images/national-cancer-institute.jpg';
+
 // import Footer from '../../Components/Footer/index';
 
 const Name = ({ setForm, formData, navigation }) => {
