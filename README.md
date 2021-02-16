@@ -90,7 +90,7 @@ To get a local copy up and running follow these simple example steps.
    
 <!-- COMPONENT HIERARCHY -->
 ## Component Hierarchy
-<img width="438" alt="Screen Shot 2021-02-16 at 4 45 36 PM" src="https://media.git.generalassemb.ly/user/31368/files/72d5d400-7076-11eb-91d4-39e197378d77">
+<img width="439" alt="Component-hierarchy-vaxine" src="https://media.git.generalassemb.ly/user/31368/files/d4963e00-7076-11eb-9697-d11cb25102c6">
    
 <!-- WIREFRAMES -->
 ## Wireframes
