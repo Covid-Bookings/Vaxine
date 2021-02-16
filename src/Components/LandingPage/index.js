@@ -11,11 +11,11 @@ const LandingPage = () => {
 				src='https://i.imgur.com/uYheX9P.jpg'
 				alt='senior-citizen-getting-vaccine'
 			/>
-			<Link className='book-btn' to='/form'>
+			<Link className='book-btn' to='/eligibility'>
 				Schedule Now
 			</Link>
 			<h2>Make a Vaccination Appointment</h2>
-			<h1>in 5 easy steps</h1>
+			<h1>in 4 easy steps</h1>
 			<ul>
 				<div className='steps'>
 					<li className="landing-list">
@@ -24,24 +24,24 @@ const LandingPage = () => {
 				</div>
 				<div className='steps'>
 					<li className="landing-list">
-						<span>2</span> Find a COVID-19 vaccine location
+						<span>2</span> Select an available day and time
 					</li>
 				</div>
 				<div className='steps'>
 					<li className="landing-list">
-						<span>3</span> Select an available day and time
+						<span>3</span> Register
 					</li>
 				</div>
 				<div className='steps'>
 					<li className="landing-list">
-						<span>4</span> Register
+						<span>4</span> Confirm
 					</li>
 				</div>
-				<div className='steps'>
+				{/* <div className='steps'>
 					<li className="landing-list">
 						<span>5</span> Confirm
 					</li>
-				</div>
+				</div> */}
 			</ul>
 		</div>
 	);

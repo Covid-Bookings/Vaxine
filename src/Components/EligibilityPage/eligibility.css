@@ -16,7 +16,9 @@
     color: black;
     border-radius: 30px;
     font-size: 16px;
+    text-decoration: none;
 }
+
 
 i {
     font-weight: 400;

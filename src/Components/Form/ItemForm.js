@@ -11,7 +11,7 @@ const ItemForm = ({ label, children, type = "text",  ...otherProps }) => (
     ) : (
       <>
         <label />
-        <input type={type} {...otherProps} />
+        <input type={type} {...otherProps}/>
         {label}
       </>
     )}
