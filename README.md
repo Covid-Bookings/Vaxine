@@ -51,11 +51,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Scheduling your Coronavirus vaccine is a complicated endeavor and within each states’ health departments there is a lot of information leading to confusion around how and when to get vaccinated. Vaxine was built out of this confusion to help individuals in New York schedule their vaccine from the comfort of the mobile device or laptop. Simply select your hospital of choice, find an open appointment, provide your name, phone number, and email, and you’re scheduled for your vaccine! 
+
+Vaxine was built during a two-and-a-half day hackathon sponsored by General Assembly. The team was composed of three UX Designers and three Software Engineers  who worked hard to earn Vaxine second place out of eight teams in the hackathon.
+
 
 ### Built With
 
 * [React](https://reactjs.org/)
-
+* [React-Hooks-Helper](https://www.npmjs.com/package/react-hooks-helper)
+* [Figma](https://www.figma.com/files/recent)
 
 <!-- GETTING STARTED -->
 ## Getting Started
