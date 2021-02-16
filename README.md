@@ -38,7 +38,7 @@
       </ul>
     </li>
     <li><a href="#Wireframes">Wireframes</a></li>
-    <li><a href="#Site Screenshots">Site Screenshots</a></li>
+    <li><a href="#Screenshots">Site Screenshots</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -91,7 +91,7 @@ To get a local copy up and running follow these simple example steps.
 ![Vaxine-wireframes](https://media.git.generalassemb.ly/user/31368/files/f386d700-705a-11eb-967c-8d1222f4636e)
 
 <!-- SCREENSHOTS OF FINAL PROJECT -->
-## Site Screenshots
+## Screenshots
 ![Vaxine-Screenshots-1](https://media.git.generalassemb.ly/user/31368/files/f71a5e00-705a-11eb-81fe-6125157ae692)
 ![Vaxine-Screenshots-2](https://media.git.generalassemb.ly/user/31368/files/f5e93100-705a-11eb-844b-4297836bb843)
 <!-- USAGE EXAMPLES -->
