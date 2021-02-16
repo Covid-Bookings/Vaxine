@@ -37,7 +37,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Component Hierarchy">Component Hierarchy</a></li>
+    <li><a href="#Component-Hierarchy">Component Hierarchy</a></li>
     <li><a href="#Wireframes">Wireframes</a></li>
     <li><a href="#Screenshots">Site Screenshots</a></li>
     <li><a href="#usage">Usage</a></li>
@@ -90,7 +90,7 @@ To get a local copy up and running follow these simple example steps.
    
 <!-- COMPONENT HIERARCHY -->
 ## Component Hierarchy
-[Vaxine-Component-Hierarchy.pdf](https://git.generalassemb.ly/sei-921/post-course-resources/files/3734/Vaxine-Component-Hierarchy.pdf)
+![Vaxine-Component-Hierarchy](https://media.git.generalassemb.ly/user/31368/files/892f6000-7075-11eb-8e4e-d43ed4d40ba5)
    
 <!-- WIREFRAMES -->
 ## Wireframes
