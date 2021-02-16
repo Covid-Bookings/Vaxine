@@ -90,7 +90,7 @@ To get a local copy up and running follow these simple example steps.
    
 <!-- COMPONENT HIERARCHY -->
 ## Component Hierarchy
-![Vaxine-Component-Hierarchy (1)](https://media.git.generalassemb.ly/user/31368/files/32765600-7076-11eb-8791-4899a6ec06f1)
+<img width="438" alt="Screen Shot 2021-02-16 at 4 45 36 PM" src="https://media.git.generalassemb.ly/user/31368/files/72d5d400-7076-11eb-91d4-39e197378d77">
    
 <!-- WIREFRAMES -->
 ## Wireframes
