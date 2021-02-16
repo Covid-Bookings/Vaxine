@@ -113,7 +113,7 @@ There are many features that can still be added to this app. Any contributions y
 <!-- CONTACT -->
 ## Contact
 
-* Sam Goldstein - [Github](https://github.com/samgold2020) - sgoldstein312@gmail@gmail.com
+* Sam Goldstein - [Github](https://github.com/samgold2020) - sgoldstein312@gmail.com
 * Marj Hurtado - [Github](https://github.com/Mhurta41) - mhurta41@gmail.com
 * James Nascimento - [Github](https://github.com/jamesnascimento1994) - james.nascimento94@yahoo.com
 
