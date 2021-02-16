@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://vaxine.netlify.app/">
-    <img src="https://media.giphy.com/media/yiC7J9IHsmK2K0V524/giphy.gif" alt="Vaxine Gif" width="800" height="600">
+    <img src="https://media.giphy.com/media/yiC7J9IHsmK2K0V524/giphy.gif" alt="Vaxine Gif" width="600" height="400">
     <br/>
   </a>
     <a href="https://vaxine.netlify.app/"><strong>Explore the site »</strong></a>
