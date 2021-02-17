@@ -1,20 +1,20 @@
 h1 {
 	font-size: 24px;
-    line-height: 26.4px;
-    padding-bottom: 20px;
+	line-height: 26.4px;
+	padding-bottom: 20px;
 }
 
 img {
-    height: 90px;
-    padding: 0px 0;
+	height: 90px;
+	padding: 0px 0;
 }
 
 .confirmation-wrapper {
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 20px;
 }
 
 /* h4 {
@@ -23,51 +23,51 @@ img {
     padding-top: 10px;
 } */
 .vaxineimg {
-    width: 15rem;
-    height: 15rem;
+	width: 15rem;
+	height: 15rem;
 }
 .content {
-    padding: 20px;
+	padding: 20px;
 }
 
 span {
-    font-size: 12px;
+	font-size: 12px;
 	font-weight: 400;
 	line-height: 18px;
 }
 
 .confirmation-updates-wrapper {
-padding-left: 100px;
-padding-right: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .confirmation-updates {
-    padding: 20px;
-    border: 1px solid #6280EB;
-    border-radius: 15px;
+	padding: 20px;
+	border: 1px solid #6280eb;
+	border-radius: 15px;
 }
 
 .button-wrapper {
-    position: absolute;
-    right: 38%;
+	position: absolute;
+	right: 38%;
 }
 
 .back-home-button {
-    position: relative;
-    color: white;
-    background: #6280eb;
-    padding: 20px 50px;
-    border-radius: 30px;
-    line-height: 24px;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: none;
+	position: relative;
+	color: white;
+	background: #6280eb;
+	padding: 20px 50px;
+	border-radius: 30px;
+	line-height: 24px;
+	font-size: 16px;
+	cursor: pointer;
+	text-decoration: none;
 }
 
-.space{
+.space {
 	margin-bottom: 11rem;
 }
 
-.homebtn{
+.homebtn {
 	margin: 20px;
 }
